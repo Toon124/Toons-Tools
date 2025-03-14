@@ -1,5 +1,7 @@
 {
   "item.toonstools.romanistone": "Romani Stone",
 
-  "block.toonstools.romani_ore": "Romani Ore"
+  "block.toonstools.romani_ore": "Romani Ore",
+
+  "creativetab.toonstools.romani_items": "Romani Items"
 }
