@@ -2,9 +2,11 @@ package com.toon.toonstools.block;
 
 import com.toon.toonstools.ToonsTools;
 import com.toon.toonstools.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -18,8 +20,8 @@ public class ModBlocks {
             DeferredRegister.createBlocks(ToonsTools.MODID);
 
     public static final DeferredBlock<Block> ROMANI_ORE = registerBlock("romani_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 
