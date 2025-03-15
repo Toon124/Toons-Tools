@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ROMANI_STONE);
                         output.accept(ModBlocks.ROMANI_ORE);
+                        output.accept(ModItems.ROMANI_SWORD);
+                        output.accept(ModItems.ROMANI_AXE);
+                        output.accept(ModItems.ROMANI_PICKAXE);
 
 
                     }).build());

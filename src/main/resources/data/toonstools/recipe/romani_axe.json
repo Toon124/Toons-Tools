@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    "RS ",
+    " S "
+  ],
+  "key": {
+    "R": { "item": "toonstools:romanistone" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "id": "toonstools:romani_axe",
+    "count": 1
+  }
+}

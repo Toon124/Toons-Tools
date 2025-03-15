@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": { "item": "toonstools:romanistone" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "id": "toonstools:romani_pickaxe",
+    "count": 1
+  }
+}

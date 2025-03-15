@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    " G ",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "toonstools:romanistone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "toonstools:romani_sword"
+  }
+}
