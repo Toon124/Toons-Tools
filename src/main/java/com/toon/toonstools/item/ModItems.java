@@ -3,6 +3,7 @@ package com.toon.toonstools.item;
 import com.toon.toonstools.ToonsTools;
 import com.toon.toonstools.item.custom.RomaniAxeItem;
 import com.toon.toonstools.item.custom.RomaniPickaxeItem;
+import com.toon.toonstools.item.custom.RomaniShovelItem;
 import com.toon.toonstools.item.custom.RomaniSwordItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -25,6 +26,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> ROMANI_PICKAXE = ITEMS.register("romani_pickaxe",
             () -> new RomaniPickaxeItem(ModToolTiers.ROMANI_STONE, new Item.Properties().durability(4000)));
+
+    public static final DeferredItem<Item> ROMANI_SHOVEL = ITEMS.register("romani_shovel",
+            () -> new RomaniShovelItem(ModToolTiers.ROMANI_STONE, new Item.Properties().durability(4000)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

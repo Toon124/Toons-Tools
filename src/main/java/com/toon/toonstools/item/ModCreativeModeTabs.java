@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROMANI_SWORD);
                         output.accept(ModItems.ROMANI_AXE);
                         output.accept(ModItems.ROMANI_PICKAXE);
+                        output.accept((ModItems.ROMANI_SHOVEL));
 
 
                     }).build());
